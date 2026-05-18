@@ -25,7 +25,6 @@ const calculateTimeDuration = (from, to) => {
   );
 
   const minutes = totalMinutes % MINUTES_IN_HOUR;
-
   const formattedDays = days.toString().padStart(2, '0');
   const formattedHours = hours.toString().padStart(2, '0');
   const formattedMinutes = minutes.toString().padStart(2, '0');
